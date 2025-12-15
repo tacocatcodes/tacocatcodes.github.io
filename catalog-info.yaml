@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tacocatcodes.github.io
+  description: |
+    An example repo of a nasa CLI
+  links:
+    - title: Website
+      url: http://tacocatcodes.github.io
+  annotations:
+    github.com/project-slug: tacocatcodes/tacocatcodes.github.io
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: guests
+  lifecycle: development
